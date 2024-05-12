@@ -10,7 +10,8 @@ export default function Home() {
 
     return (
         <div className="flex flex-col my-2 mx-2">
-            <h1>Home Page</h1>
+            <h1 className="text-sm text-center">boilerplate for <span className="text-yellow-400 underline">sign-in</span></h1>
+            <p className="text-center text-xs"></p>
         </div>
     );
 }

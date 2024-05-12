@@ -27,7 +27,12 @@ export default function useUser() {
         queryKey: ["user"],
         queryFn: async () => {
             const supabase = createClient();
-            const { data } = await supabase.auth.getSession();
+
+            const { data, error } = await supabase.auth.getSession();
+
+            if (error) {
+                throw new Error(error.message);
+            }
 
             if (data.session?.user) {
                 // fetch user information [settings] table
@@ -40,5 +45,8 @@ export default function useUser() {
             }
             return initUser;
         },
+
+
+        
     });
 }

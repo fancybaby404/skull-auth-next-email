@@ -1,12 +1,13 @@
 import React from 'react'
 import Profile from './Profile'
 import Link from 'next/link'
+import { Skull } from 'lucide-react'
 
 function Navbar() {
   return (
     <div className='flex justify-between items-center'>
         <Link href={"/"}>
-            <h1>Logo</h1>
+            <Skull />
         </Link>
 
 
