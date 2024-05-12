@@ -1,9 +1,9 @@
 # Login App with Next.js, Supabase, and React Query
 
 A simple authentication system using Next.js, Supabase, and React Query.
-![image](https://github.com/fancybaby404/next-reactquery-supabase-boilerplate-signin/assets/53817791/ee333386-ab94-42b4-ad7b-1c5fdb62bb8a)
-![image](https://github.com/fancybaby404/next-reactquery-supabase-boilerplate-signin/assets/53817791/d0b46bf5-0685-41bb-b2cc-514c5fd7fd67)
-
+| ![Dark](https://github.com/fancybaby404/next-reactquery-supabase-boilerplate-signin/assets/53817791/ee333386-ab94-42b4-ad7b-1c5fdb62bb8a) | ![Ocean](https://github.com/fancybaby404/next-reactquery-supabase-boilerplate-signin/assets/53817791/d0b46bf5-0685-41bb-b2cc-514c5fd7fd67) |
+|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Login Page                                                 | Home Page                                                  |
 ## Installation
 
 1. Clone the repository:
@@ -47,3 +47,10 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 - Thanks to the Next.js, Supabase, and React Query communities for their amazing work!
+
+
+
+
+
+
+
