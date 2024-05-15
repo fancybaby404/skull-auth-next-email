@@ -18,19 +18,19 @@ export default function RootLayout({
     children,
 }: Readonly<{ children: React.ReactNode }>) {
     return (
-        <html lang="en" suppressHydrationWarning>
-            <QueryProvider>
-                <ThemeProvider attribute="class" defaultTheme="dark">
-                    <body className={inter.className}>
+        <html lang="en">
+            <body suppressHydrationWarning className={inter.className}>
+                <QueryProvider>
+                    <ThemeProvider attribute="class" defaultTheme="dark">
                         <main className="max-w-6xl min-h-screen mx-auto py-10 space-y-10">
                             <Navbar />
                             {children}
                         </main>
                         <Toaster />
-                    </body>
-                </ThemeProvider>
-                <ReactQueryDevtools />
-            </QueryProvider>
+                    </ThemeProvider>
+                    <ReactQueryDevtools/>
+                </QueryProvider>
+            </body>
         </html>
     );
 }
